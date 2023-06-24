@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.list li a{
+    text-decoration: none;
+
+
+}
+header{
+    background-color: rgb(62, 112, 112);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+.list li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+h1{
+    cursor: pointer;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+}
+.part1{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid black;
+}
+.part2{
+    
+    border: 1px solid black;
+    
+    height: 300px;
+    
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.container2{
+    background-color: aqua;
+    
+}
+.top-left{
+    width: 50%;
+    
+}
+.top-right{
+    width:50%;
+    height: 50vh;
+    padding-left: 30px;
+    
+}
+.section1{
+    height: 50vh;
+    background-color: aliceblue;
+    
+}
+.flex1{
+    display: flex;
+    
+    
+}
+.img{
+    padding-left: 130px;
+    
+}
+.center{
+    
+    padding: 50px 40px 40px 40px;
+}
+.content{
+    text-align: center ;
+    
+    padding-top: 50px;
+    margin-top: 20px;
+    
+}
+.section2{
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 70vh;
+    background-color: aliceblue;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 60px;
+    justify-content: space-around;
+    
+}
+.title{
+    text-align: center;
+}
+.section3{
+    height: 50vh;
+    background-color: aliceblue;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.para{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section4{
+    height:50vh;
+    background-color: aliceblue;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.extra{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.extra1{
+    margin-left: 40px;
+}
+.section5{
+    height: 70vh;
+    background-color: aliceblue;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.h5{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.new-container{
+    border: 2px solid rgb(241, 183, 183);
+    max-width: 800px;
+    max-height: 600px;
+    margin: auto;
+}
+.n1,.n2,.n3,.n4,.n5,.n0{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.2px solid brown;
+    background-color: rgb(243, 233, 201);
+}
+.btn{
+    color: white;
+    padding: 8px;
+    background-color: rgb(63, 104, 241);
+    border-radius: 3px;
+
+}

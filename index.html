@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Smart Irrigation</h1>
+
+        <nav>
+    <ul class="list">
+        <li>About</li>
+        <li><a href="/graphs.html">Dashboard</a></li>
+    </ul>
+</nav>
+</header>
+<main class="screen">
+    <section class="section1">
+        <div class="flex1">
+          <div class="top-left">
+              <div class="center">
+             <h1 class="center">Smart irrigation final project</h1>
+             <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni nostrum, maxime ipsum delectus iure doloremque rem! Doloribus quia magnam culpa incidunt inventore quam, iusto sed quidem ex aliquam hic, deserunt aspernatur officia explicabo ipsam.</p>
+            </div>
+          </div>
+          <div class="top-right">
+           
+           <img src="https://media.istockphoto.com/id/1297969670/photo/smart-farming-argriculture-concept-man-hands-holding-a-tablet-on-blurred-organic-farm-as.jpg?s=612x612&w=0&k=20&c=dJDfxunPdYv4vOwF-CGW6FkjL7lDnm2VubRZjvPQB4s=" alt="Girl in a jacket" class="img" height="400px">
+
+
+          </div>
+
+        </div>
+      <hr>
+    </section>
+    <section class="section2">
+        <hr>
+        <div class="content">
+        <h1 class="heading1"> GRAPHS</h1>
+        <br>
+        <div class="para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto enim accusantium eius maxime dicta tempore, dolores sequi illum asperiores iure, ex repellendus voluptate in. Eius sed voluptas similique cumque quia?</p>
+    </div>
+       
+    </div>
+    <div class="flex">
+        <div class="box1">
+            <h2 class="title">Temp</h2>
+            <br>
+            <iframe class="graph" src="https://thingspeak.com/channels/2165850/charts/1?bgcolor=%23ffff00&color=%23d62020&dynamic=false&results=60&title=Temperature&type=line"frameBorder="0" width="450px" height="285px"></iframe>
+            
+        </div>
+        <div class="box2">
+            <h2 class="title">Humidity</h2>
+            <br>
+            <iframe  id="frame" class="graph" src="https://thingspeak.com/channels/2165850/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line" frameBorder="0"  width="450px" height="285px"></iframe>
+        </div>
+        <div class="box3">
+            <h2 class="title">Average</h2>
+            <br>
+            <iframe class="graph" src="https://thingspeak.com/apps/matlab_visualizations/514207" frameBorder="0"  width="460px" height="285px"></iframe>
+        </div>
+    </div>
+        
+    </section>
+    <section class="section3">
+       <hr>
+       <div class="flex">
+        <div class="box1">
+            <h2 class="title">Soil moisture</h2>
+            <br>
+            <iframe class="graph" src="https://thingspeak.com/channels/2165850/charts/4?bgcolor=%23ffff00&color=%23d62020&dynamic=true&results=60&title=Soil+Moisture&type=line" frameBorder="0"  width="450px" height="285px"></iframe>
+            
+        </div>
+        <div class="box2">
+            <h2 class="title">Water level</h2>
+            <br>
+            <iframe  id="frame" class="graph" src="https://thingspeak.com/channels/2165850/charts/3?bgcolor=%23ffff00&color=%23d62020&dynamic=true&results=60&title=Water+Label&type=line" frameBorder="0" width="450px" height="285px"></iframe>
+        </div>
+        <div class="box3">
+            <h2 class="title">Rain detector</h2>
+            <br>
+            <iframe class="graph" src="https://thingspeak.com/channels/2165850/charts/5?bgcolor=%23ffff00&color=%23d62020&dynamic=true&results=60&title=Rain+Detector&type=line" frameBorder="0"  width="460px" height="285px"></iframe>
+        </div>
+    </div>
+
+    </section>
+    <section class="section4">
+        <hr>
+        <div class="box1">
+            <h2 class="extra">Temperature and Humidity data</h2>
+            <br>
+            <iframe class="extra1" src="https://thingspeak.com/apps/matlab_visualizations/517822" width="450px" height="285px"></iframe>
+            
+        </div>
+    </section>
+    <section class="section5">
+        <hr>
+        <h1 class="h5">Export recent data</h1>
+        <div class="new-container">
+            <div class="n0">
+                
+                <p>Smart Irrigation System Channel feed</p>
+                <button class=" btn" type="button"> Download</button>
+                
+            </div>
+            <div class="n1">
+                <p>Temperature</p>
+                <button class=" btn" type="button"> Download</button>
+            </div>
+            <div class="n2">
+                <p>Humidity</p>
+                <button class=" btn" type="button"> Download</button>
+            </div>
+            <div class="n3">
+                <p>Water label</p>
+                <button type="button" class=" btn" > Download</button>
+            </div>
+            <div class="n4">
+                <p>Soil moisture</p>
+                <button type="button" class=" btn" > Download</button>
+            </div>
+            <div class="n5">
+                <p>Rain detection</p>
+                <button type="button" class=" btn" > Download</button>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script src="custom.js"></script>
+
+</body>
+</html>
